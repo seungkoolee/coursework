@@ -26,7 +26,7 @@ Coursework::Application.routes.draw do
   
   match '/programmes', :to => "cw_core#programmes" ,via: [:get]
   
-  match '/image', :to => "cw_core#image" ,via: [:get]
+  
   
     
   match '/howToGetThere', :to => "cw_core#howToGetThere" ,via: [:get]

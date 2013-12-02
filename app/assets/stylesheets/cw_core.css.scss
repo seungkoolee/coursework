@@ -5,11 +5,8 @@ img{
       width : 100px;
       height : 100px;
       float:left;
-     
-      
-  
-  
 }
+
 header h1{
      margin:20px;
      float:right;
@@ -88,10 +85,21 @@ nav a::before{
 nav a:active::before{
 	top: -11px; /* Hey you, don't move! */
 }	
+
 footer{
-  position:relative;
+  position:absolute;
   margin:750px;
- float:right;
+  text-align:center;
+  
+}
+#menu {
+  	margin: 100px 0px; 
+	
+	
+}
+#menu li{
+  margin : 20px;
+  font-size:25px;
 }
 section{
  

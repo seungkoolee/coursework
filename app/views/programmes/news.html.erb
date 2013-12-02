@@ -1,0 +1,11 @@
+<article id="news">
+  <% @newsletter.each do |newsletter| %>
+  <section>
+    <h1><%= newsletter.name %></h1>
+    <p><%= image_tag newsletter.image_url(:thumb) if newsletter.image? %>></p>
+    <p> <%= newsletter.description %>
+    </p>
+    
+  </section>
+  <% end %>
+</article>

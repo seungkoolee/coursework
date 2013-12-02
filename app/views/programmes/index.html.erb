@@ -6,6 +6,7 @@
       <th>Title</th>
       <th>Date</th>
       <th>Description</th>
+      <th>Image</th>
       <th></th>
       <th></th>
       <th></th>
@@ -18,6 +19,8 @@
         <td><%= programme.title %></td>
         <td><%= programme.date %></td>
         <td><%= programme.description %></td>
+        
+     
         <td><%= link_to 'Show', programme %></td>
         <td><%= link_to 'Edit', edit_programme_path(programme) %></td>
         <td><%= link_to 'Destroy', programme, method: :delete, data: { confirm: 'Are you sure?' } %></td>
