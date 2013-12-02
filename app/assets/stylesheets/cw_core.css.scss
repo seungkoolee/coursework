@@ -1,0 +1,89 @@
+// Place all the styles related to the cw_core controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+img{
+      width : 100px;
+      height : 100px;
+      float:left;
+      
+  
+  
+}
+header h1{
+     margin:23px;
+     float:left;
+    font-size:70px;
+    
+}
+
+
+nav{
+  margin:0px;
+  position:absolute;
+}
+
+nav ul{
+	margin: 30;
+	padding: 0;
+}
+nav li{
+	margin: 20px 0px; 
+	
+	zoom: 1;
+}
+
+nav a{
+	display: inline-block;
+	position: relative;
+	padding: 8px 15px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #999;
+	font: bold 14px 'Lucida sans', Arial, Helvetica;
+	background-color: #eaeaea;
+	background-image: linear-gradient(top, #eaeaea, #fff);
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05) inset,
+				0 0 1px 0 rgba(0, 0, 0, .2),
+				0 2px 2px rgba(0, 0, 0, .3),
+				0 10px 10px -5px rgba(0, 0, 0, .2);
+}
+
+nav a:hover{
+	background-color: #eee;
+	background-image: linear-gradient(top, #eee, #fff);		
+}	
+
+nav a:active{
+        top: 1px; /* Simulate the push button effect */
+	background: #f5f5f5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05) inset,
+				0 0 1px 0px rgba(0, 0, 0, .2),
+				0 1px 2px rgba(0, 0, 0, .3);
+}
+nav a::before{
+	content: '';
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	bottom: -10px;
+	left: -10px;
+	z-index: -1;
+	background-color: #e3e3e3;
+	background-image: linear-gradient(top, #e3e3e3, #f7f7f7);
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05) inset;		
+}
+
+nav a:active::before{
+	top: -11px; /* Hey you, don't move! */
+}	
+footer{
+  position:relative;
+  margin:750px;
+ float:right;
+}
+section{
+ 
+  float:right;
+}
