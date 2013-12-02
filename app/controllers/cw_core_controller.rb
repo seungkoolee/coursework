@@ -27,9 +27,7 @@ class CwCoreController < ApplicationController
     @title = "Links to croquet sites"
   end
 
-  def newsLetter
-    @title = "News letters"
-  end
+  
 
   def whatYouNeed
     @title = "What you need"

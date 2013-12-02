@@ -3,7 +3,9 @@ Coursework::Application.routes.draw do
 
   
     
-  root :to => 'cw_core#homepage'
+  
+
+    root :to => 'cw_core#homepage'
  
    
     devise_for :users
@@ -13,30 +15,27 @@ Coursework::Application.routes.draw do
 
 
   
-
-  
-  
-  
-  
+   
   
     
-  match '/about', :to => "cw_core#about", via:[:get]
+  match '/about', :to => "cw_core#about" ,via: [:get]
   
-  match '/howToJoin', :to => "cw_core#howToJoin", via:[:get]
+  match '/howToJoin', :to => "cw_core#howToJoin" ,via: [:get]
   
-  match '/whatYouNeed', :to => "cw_core#whatYouNeed", via:[:get]
+  match '/whatYouNeed', :to => "cw_core#whatYouNeed", via: [:get]
   
-  match '/programmes', :to => "cw_core#programmes", via:[:get]
+  match '/programmes', :to => "cw_core#programmes" ,via: [:get]
   
-  match '/newsLetter', :to => "cw_core#newsLetter", via:[:get]
+  match '/image', :to => "cw_core#image" ,via: [:get]
   
-  match '/howToGetThere', :to => "cw_core#howToGetThere", via:[:get]
+    
+  match '/howToGetThere', :to => "cw_core#howToGetThere" ,via: [:get]
   
-  match '/clubMatter', :to => "cw_core#clubMatter", via:[:get]
+  match '/clubMatter', :to => "cw_core#clubMatter", via: [:get]
   
-  match '/bookALawn', :to => "cw_core#bookALawn", via:[:get] 
+  match '/bookALawn', :to => "cw_core#bookALawn" , via: [:get]
   
-  match '/links', :to => "cw_core#links", via:[:get]
+  match '/links', :to => "cw_core#links" ,via: [:get]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
